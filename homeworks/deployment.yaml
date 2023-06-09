@@ -1,0 +1,5 @@
+deployments:
+- name: taxi_local_data
+  entrypoint: homework_3/orchestrate.py:main_flow
+  work_pool:
+    name: homework_3
